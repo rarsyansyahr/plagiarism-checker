@@ -1,8 +1,15 @@
-<h2>Jurnal 1</h2>
-<p>{{ $jurnal_1 }}</p>
+@include('parts.header')
 
-<h2>Jurnal 2</h2>
-<p>{{ $jurnal_2 }}</p>
+@include('parts.hero')
 
-<h2>Presentasi Plagiarism</h2>
-<p>{{ $distance }}</p>
+<!-- Start #main -->
+<main id="main">
+  @include('parts.technology')
+  @include('parts.plagiarism_form')
+  @include('parts.result')
+  @include('parts.jaro_winkler')
+  @include('parts.team')
+</main>
+<!-- End #main -->
+
+@include('parts.footer')
