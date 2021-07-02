@@ -1,4 +1,4 @@
-<!-- ======= Result Section ======= style="display: none;"-->
+<!-- ======= Result Section ======= -->
 <section id="result" class="skills">
     <div class="container" data-aos="fade-up">
 
