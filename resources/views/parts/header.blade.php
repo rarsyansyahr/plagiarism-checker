@@ -47,8 +47,8 @@
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
                     <li><a class="nav-link scrollto" href="#plagiarism">Cek Plagiat</a></li>
-                    <li><a class="nav-link scrollto" href="#jaro-winkler">Tentang</a></li>
-                    <li><a class="nav-link scrollto" href="#team">Tim</a></li>
+                    <li><a class="nav-link scrollto" href="#jaro-winkler">Algoritma JaroWinkler</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Tim Pengembang</a></li>
                 </ul>
                 <i class="bi bi-list mobile-nav-toggle"></i>
             </nav><!-- .navbar -->

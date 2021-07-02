@@ -46,5 +46,15 @@
         </div>
 
     </form>
+
+    <div id="loading-plagiarism" style="display: none;">
+        <div class="d-flex justify-content-center align-items-center">
+            <div style="margin-right: 1rem;">
+                <h3 class="text-primary">Sedang menganalisa ... </h3>
+            </div>
+            <div class="spinner-border text-primary" role="status">
+            </div>
+        </div>
+    </div>
 </section>
 <!-- End Plagiarism Form Section -->

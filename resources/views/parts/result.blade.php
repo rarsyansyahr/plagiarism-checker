@@ -1,5 +1,5 @@
 <!-- ======= Result Section ======= -->
-<section id="result" class="skills">
+<section id="result" class="skills" style="display: none;">
     <div class="container" data-aos="fade-up">
 
         <div class="row">
@@ -8,16 +8,16 @@
             </div>
             <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left" data-aos-delay="100">
                 <h3>Hasil Analisa Plagiarism</h3>
-                <p style="text-align: justify;">
+                <p class="text-justify">
                     Berdasarkan analisa menggunakan Algoritma JaroWinkler, maka hasil analisa antara <b>Dokumen Pertama</b> dan <b>Dokumen Kedua</b> adalah :
                 </p>
 
                 <h1 class="text-center display-1"><b id="txt-result"></b> Sama</h1>
                 <hr>
                 <div class="mt-4 text-center">
-                    <a href="#plagiarism" class="btn btn-primary btn-lg">
+                    <a href="#plagiarism" id="btn-again" class="btn btn-primary btn-lg">
                         <img src="/assets/icon/refresh.svg" alt="Search Icon">&nbsp;
-                        Gunakan Lagi
+                        Coba Lagi
                     </a>
                 </div>
 

@@ -1,8 +1,14 @@
 $(document).ready(function (e) {
-    $(".btn-get-started").on("click", function () {
-        $("#plagiarism").show(300);
-        $("#result").hide(300);
-    });
+    $(".btn-get-started, #btn-again, #link-plagiarism").on(
+        "click",
+        function () {
+            $("#document1").val(null);
+            $("#document2").val(null);
+
+            $("#result").hide(300);
+            $("#plagiarism").show(300);
+        }
+    );
 
     $("#document1, #document2").on("change", function () {
         let document = $(this).val(),
@@ -33,7 +39,10 @@ $(document).ready(function (e) {
             cache: false,
             processData: false,
             beforeSend: function () {
-                console.log("Prepare");
+                $("#plagiarism-form").hide(300);
+                $("#loading-plagiarism").show(300);
+
+                setTimeout(console.log("Process"), 2000);
             },
             success: function (data) {
                 console.log(data.result);

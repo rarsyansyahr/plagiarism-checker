@@ -22,22 +22,21 @@
                   <div class="col-lg-3 col-md-6 footer-contact">
                       <h3>R2A TEAM</h3>
                       <p>
-                          Temu Balik Informasi <br>
-                          IF18S, Fakultas Ilmu Komputer<br>
-                          Universitas Amikom Purwokerto<br><br>
-                          <strong>Phone:</strong> +1 5589 55488 55<br>
-                          <strong>Email:</strong> info@example.com<br>
+                          Mata Kuliah Temu Balik Informasi <br>
+                          Informatika 18S, Fakultas Ilmu Komputer<br>
+                          Universitas Amikom Purwokerto | 2021<br><br>
+                          <strong>Phone:</strong> +62 858 7842 0368<br>
+                          <strong>Email:</strong> <a href="mailto:rarsyansyahr@gmail.com" target="__blank__">rarsyansyahr@gmail.com</a><br>
                       </p>
                   </div>
 
                   <div class="col-lg-3 col-md-6 footer-links">
                       <h4>Useful Links</h4>
                       <ul>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+                          <li><i class="bx bx-chevron-right"></i> <a href="#hero">Beranda</a></li>
+                          <li><i class="bx bx-chevron-right"></i> <a href="#plagiarism" id="link-plagiarism">Cek Plagiat</a></li>
+                          <li><i class="bx bx-chevron-right"></i> <a href="#jaro-winkler">Algoritma JaroWinkler</a></li>
+                          <li><i class="bx bx-chevron-right"></i> <a href="#team">Tim Pengembang</a></li>
                       </ul>
                   </div>
 
@@ -53,8 +52,8 @@
                   </div>
 
                   <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Our Social Networks</h4>
-                      <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                      <h4>Mata Kuliah Temu Balik Informasi</h4>
+                      <p class="text-justify">Sistem ini dibuat untuk memenuhi tugas Mata Kuliah <b>Temu Balik Informasi</b> di Semester 6, Informatika 18S.</p>
                       <div class="social-links mt-3">
                           <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
                           <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>

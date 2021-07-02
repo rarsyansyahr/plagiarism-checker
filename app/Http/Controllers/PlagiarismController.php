@@ -21,15 +21,15 @@ class PlagiarismController extends Controller
         $document1Name = time() . "_" . $document1->getClientOriginalName();
         $document2Name = time() . "_" . $document2->getClientOriginalName();
 
-        $path = "uploads";
+        $uploads_dir = "uploads";
 
-        $document1->move($path, $document1Name);
-        $document2->move($path, $document2Name);
+        $document1->move($uploads_dir, $document1Name);
+        $document2->move($uploads_dir, $document2Name);
 
         $path = base_path("public/uploads/");
 
-        $doc1 = (new Pdf())->setPdf($path . '1625221002_Implementasi_Website_Berbasis_Search_Engine_Optimi.pdf')->text();
-        $doc2 = (new Pdf())->setPdf($path . '1625221002_indraalannugroho_stmikamikompurwokerto_PKM-KC.pdf')->text();
+        $doc1 = (new Pdf())->setPdf($path . $document1Name)->text();
+        $doc2 = (new Pdf())->setPdf($path . $document2Name)->text();
         $result = StringDistance::JaroWinkler($doc1, $doc2);
 
         return response()->json(["result" => $result]);
