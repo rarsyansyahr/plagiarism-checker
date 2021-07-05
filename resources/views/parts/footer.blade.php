@@ -19,7 +19,7 @@
           <div class="container">
               <div class="row">
 
-                  <div class="col-lg-3 col-md-6 footer-contact">
+                  <div class="col-lg-4 col-md-6 footer-contact">
                       <h3>R2A TEAM</h3>
                       <p>
                           Mata Kuliah Temu Balik Informasi <br>
@@ -30,7 +30,7 @@
                       </p>
                   </div>
 
-                  <div class="col-lg-3 col-md-6 footer-links">
+                  <div class="col-lg-4 col-md-6 footer-links">
                       <h4>Useful Links</h4>
                       <ul>
                           <li><i class="bx bx-chevron-right"></i> <a href="#hero">Beranda</a></li>
@@ -40,18 +40,7 @@
                       </ul>
                   </div>
 
-                  <div class="col-lg-3 col-md-6 footer-links">
-                      <h4>Our Services</h4>
-                      <ul>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                          <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-                      </ul>
-                  </div>
-
-                  <div class="col-lg-3 col-md-6 footer-links">
+                  <div class="col-lg-4 col-md-6 footer-links">
                       <h4>Mata Kuliah Temu Balik Informasi</h4>
                       <p class="text-justify">Sistem ini dibuat untuk memenuhi tugas Mata Kuliah <b>Temu Balik Informasi</b> di Semester 6, Informatika 18S.</p>
                       <div class="social-links mt-3">

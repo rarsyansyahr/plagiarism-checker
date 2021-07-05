@@ -5,9 +5,9 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Plagiarism Checker - Home</title>
-    <meta content="" name="description">
-    <meta content="" name="keywords">
+    <title>Plagiarism Checker | IF18S</title>
+    <meta content="Plagiarism Checker merupakan aplikasi berbasis web yang berfungsi untuk mengecek tingkat kemiripan (plagiarism) antara 2 dokumen menggunakan Algoritma JaroWinkler." name="description">
+    <meta content="jarowinkler plagiarism information retrieval" name="keywords">
 
     <!-- Favicons -->
     <link href="/assets/img/favicon.png" rel="icon shortcut">

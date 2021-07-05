@@ -9,35 +9,39 @@
                 <div class="content">
                     <h3>Apa itu Algoritma <strong>Jaro Winkler</strong> ?</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
+                    Jaro-Winkler adalah metrik string yang mengukur jarak edit antara dua urutan. Ini adalah varian yang diusulkan pada tahun 1990 oleh William E. Winkler dari metrik jarak Jaro.
                     </p>
                 </div>
 
                 <div class="accordion-list">
                     <ul>
                         <li>
-                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Semakin tinggi <i>Jaro-Winkler Distance</i> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                 <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                                untuk dua string, semakin mirip dengan string tersebut. Nilai normalnya yaitu 0 untuk menandakan tidak ada kesamaan, dan 1 untuk menandakan adanya kesamaan. (Kurniawati, Sulistyo dan Sazali 2010).
+
                                 </p>
                             </div>
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Feugiat scelerisque varius morbi enim nunc? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-2" class="collapsed"><span>02</span> Jaro–Winkler menggunakan skala awalan p (huruf phi) <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-2" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                                yang memberikan peringkat yang lebih menguntungkan untuk string yang cocok dari awal untuk panjang awalan yang ditetapkan l ( huruf l latin).
+                                </p>
+                                <p>
+                                Semakin rendah jarak Jaro-Winkler untuk dua senar, semakin mirip senarnya. Skor dinormalisasi sedemikian rupa sehingga 0 berarti sama persis dan 1 berarti tidak ada kemiripan. Makalah asli sebenarnya mendefinisikan metrik dalam hal kesamaan, sehingga jarak didefinisikan sebagai kebalikan dari nilai itu (jarak = 1 kesamaan).
                                 </p>
                             </div>
                         </li>
 
                         <li>
-                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Dolor sit amet consectetur adipiscing elit? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" data-bs-target="#accordion-list-3" class="collapsed"><span>03</span> Meskipun sering disebut sebagai <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-3" class="collapse" data-bs-parent=".accordion-list">
                                 <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                                metrik jarak, Jaro–Winkler bukanlah metrik dalam pengertian matematis istilah tersebut karena tidak mematuhi pertidaksamaan segitiga.
                                 </p>
                             </div>
                         </li>

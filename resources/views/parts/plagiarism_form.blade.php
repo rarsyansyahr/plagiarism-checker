@@ -6,7 +6,7 @@
         <div class="container" data-aos="fade-up">
 
             <div class="section-title">
-                <h2>PLAGIARISM CHECKER</h2>
+                <h2>Mari periksa dokumen Kamu</h2>
             </div>
 
             <div class="row content">

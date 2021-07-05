@@ -4,7 +4,7 @@
 
         <div class="section-title">
             <h2>Team</h2>
-            <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p>
+            <p>Kami adalah mahasiswa Kelas IF18S Prodi Informatika, Universitas Amikom Purwokerto. Berikut adalah anggota dari tim kami :</p>
         </div>
 
         <div class="row">
