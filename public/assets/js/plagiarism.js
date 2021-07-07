@@ -37,7 +37,7 @@ $(document).ready(function (e) {
         e.preventDefault();
 
         $.ajax({
-            url: "/plagiarism",
+            url: "plagiarism",
             type: "POST",
             data: new FormData(this),
             contentType: false,

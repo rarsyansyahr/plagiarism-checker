@@ -1,6 +1,6 @@
 <!-- ======= Plagiarism Form ======= -->
 <section id="plagiarism" class="about">
-    <form action="/plagiarism" method="POST" enctype="multipart/form-data" id="plagiarism-form">
+    <form action="plagiarism" method="POST" enctype="multipart/form-data" id="plagiarism-form">
         {{ csrf_field() }}
 
         <div class="container" data-aos="fade-up">

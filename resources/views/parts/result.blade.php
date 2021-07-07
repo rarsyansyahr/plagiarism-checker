@@ -16,7 +16,7 @@
                 <hr>
                 <div class="mt-4 text-center">
                     <a href="#plagiarism" id="btn-again" class="btn btn-primary btn-lg">
-                        <img src="/assets/icon/refresh.svg" alt="Search Icon">&nbsp;
+                        <img src="assets/icon/refresh.svg" alt="Search Icon">&nbsp;
                         Coba Lagi
                     </a>
                 </div>
