@@ -11,9 +11,18 @@ class PlagiarismController extends Controller
     public function index(Request $request)
     {
         $this->validate($request, [
-            'document1' => 'required|max:5120',
-            'document2' => 'required|max:5120'
-        ]);
+            'document1' => 'required|max:5120|mimes:pdf',
+            'document2' => 'required|max:5120|mimes:pdf'
+        ], 
+        [
+            'document1.required'=> 'Dokumen Pertama tidak boleh kosong..',
+            'document1.max'     => 'Ukuran Dokumen Pertama maksimal 5mb..',
+            'document1.mimes'   => 'Dokumen Pertama hanya boleh berformat pdf..',
+            'document2.required'=> 'Dokumen Kedua tidak boleh kosong..',
+            'document2.max'     => 'Ukuran Dokumen Kedua maksimal 5mb..',
+            'document2.mimes'   => 'Dokumen Kedua hanya boleh berformat pdf..'
+        ]  
+    );
 
         $document1 = $request->file('document1');
         $document2 = $request->file('document2');

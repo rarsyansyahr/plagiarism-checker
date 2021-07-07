@@ -16,7 +16,7 @@
                 <div class="accordion-list">
                     <ul>
                         <li>
-                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Semakin tinggi <i>Jaro-Winkler Distance</i> <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <a data-bs-toggle="collapse" class="collapse" data-bs-target="#accordion-list-1"><span>01</span> Semakin tinggi Jaro-Winkler Distance <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
                             <div id="accordion-list-1" class="collapse show" data-bs-parent=".accordion-list">
                                 <p>
                                 untuk dua string, semakin mirip dengan string tersebut. Nilai normalnya yaitu 0 untuk menandakan tidak ada kesamaan, dan 1 untuk menandakan adanya kesamaan. (Kurniawati, Sulistyo dan Sazali 2010).

@@ -5,6 +5,11 @@ $(document).ready(function (e) {
             $("#document1").val(null);
             $("#document2").val(null);
 
+            $(".alert-danger").hide();
+
+            $("#plagiarism-form").show(300);
+            $("#loading-plagiarism").hide(300);
+
             $("#result").hide(300);
             $("#plagiarism").show(300);
         }
@@ -15,14 +20,14 @@ $(document).ready(function (e) {
             extension = document.split(".").pop();
 
         if (extension != "pdf") {
-            alert("Dokumen hanya boleh berformat pdf..");
+            alert("File atau dokumen hanya boleh berformat pdf..");
             $(this).val(null);
         } else {
             let doc1 = $("#document1").val(),
                 doc2 = $("#document2").val();
 
             if (doc1 != null && doc2 != null && doc1 == doc2) {
-                alert("File dokumen tidak boleh sama..");
+                alert("File atau dokumen tidak boleh sama..");
                 $(this).val(null);
             }
         }
@@ -39,6 +44,7 @@ $(document).ready(function (e) {
             cache: false,
             processData: false,
             beforeSend: function () {
+                $(".alert-danger").hide();
                 $("#plagiarism-form").hide(300);
                 $("#loading-plagiarism").show(300);
 
@@ -57,7 +63,39 @@ $(document).ready(function (e) {
                 $("#document2").val(null);
             },
             error: function (err) {
-                console.log(err);
+                let errors = err.responseJSON.errors;
+
+                console.log(err, errors);
+
+                if(errors != null) {
+                    $("#list-errors").empty();
+
+                    if('document1' in errors) {
+                        console.log(errors.document1);
+
+                        for(i in errors.document1) {
+                            $("#list-errors").append(`<li>${errors.document1[i]}</li>`);
+                        }
+                    }
+    
+                    if('document2' in errors) {
+                        console.log(errors.document2);
+
+                        for(i in errors.document2) {
+                            $("#list-errors").append(`<li>${errors.document2[i]}</li>`);
+                        }
+                    }
+                } else {
+                    console.log(errors);
+
+                    $("#list-errors").empty();
+                    $("#list-errors").append(JSON.stringify(errors));
+                }
+
+                $(".alert-danger").show();
+
+                $("#loading-plagiarism").hide(300);
+                $("#plagiarism-form").show(300);                
             },
         });
     });
