@@ -40,13 +40,11 @@
         <div class="container d-flex align-items-center">
 
             <h1 class="logo me-auto"><a href="/">R2A Team</a></h1>
-            <!-- Uncomment below if you prefer to use an image logo -->
-            <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
             <nav id="navbar" class="navbar">
                 <ul>
                     <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
-                    <li><a class="nav-link scrollto" href="#plagiarism">Cek Plagiat</a></li>
+                    <li><a class="nav-link scrollto" href="#plagiarism">Analisa Dokumen</a></li>
                     <li><a class="nav-link scrollto" href="#jaro-winkler">Algoritma JaroWinkler</a></li>
                     <li><a class="nav-link scrollto" href="#team">Tim Pengembang</a></li>
                 </ul>

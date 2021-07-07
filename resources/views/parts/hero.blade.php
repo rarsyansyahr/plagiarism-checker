@@ -8,7 +8,7 @@
                 <h2>Mengecek plagiatisasi antara dua dokumen menggunakan Algoritma Jaro Winkler.</h2>
                 <div class="d-flex justify-content-center justify-content-lg-start">
                     <a href="#plagiarism" class="btn-get-started scrollto">Coba Sekarang</a>
-                    <a href="https://www.youtube.com/watch?v=jDDaplaOz7Q" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Lihat Preview</span></a>
+                    <a href="https://youtu.be/OkA5KKFjWAI" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Lihat Preview</span></a>
                 </div>
             </div>
             <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="200">

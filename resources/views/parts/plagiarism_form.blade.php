@@ -24,11 +24,6 @@
                     <p>
                         <i><small>Pilih dokumen yang akan dibandingkan.</small></i>
                     </p>
-                    <!-- <ul>
-                        <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                        <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit</li>
-                        <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat</li>
-                    </ul> -->
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0">
                     <div class="mb-3">
@@ -38,7 +33,6 @@
                     <p>
                         <i><small>Dokumen kedua merupakan dokumen yang akan dibandingkan dengan dokumen pertama.</small></i>
                     </p>
-                    <!-- <a href="#" class="btn-learn-more">Learn More</a> -->
                 </div>
             </div>
 
